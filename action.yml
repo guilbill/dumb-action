@@ -4,4 +4,6 @@ description: Say hello world
 runs:
   using: "composite"
   steps:
-    - run: echo "Hello, world!"
+    - name: "Hello"
+      run: echo "Hello, world!"
+      shell: bash
