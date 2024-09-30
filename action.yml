@@ -1,4 +1,7 @@
 name: Dumb action
 description: Say hello world
 
-runs: echo "Hello World!"
+runs:
+  using: "composite"
+  steps:
+    - run: echo "Hello, world!"
