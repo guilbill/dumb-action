@@ -1,10 +1,4 @@
 name: Dumb action
 description: Say hello world
 
-inputs:
-  who-to-greet:
-    description: "Who to greet"
-    required: true
-    default: "World"
-
-runs: echo "Hello ${{ inputs.who-to-greet }}"
+runs: echo "Hello World!"
